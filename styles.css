@@ -148,9 +148,10 @@ input[type=text], select, textarea {
 
 .dropbtn {
   padding: 16px;
-  font-size: 25;
+  font-size: 25px;
   font-family: 'Saira Extra Condensed', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
   border: none;
+  color: #58a4b0;
 }
 
 /* dropdown inspiration taken from W3 online*/
