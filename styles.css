@@ -112,17 +112,17 @@ html {
   padding-left: 400px; 
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 70%; /* Full width */
 
-  padding: 1px; /* Some padding */  
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text], select, textarea {
+  width: 70%; 
+
+  padding: 1px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
 }
 
 
@@ -134,7 +134,7 @@ input[type=text], select, textarea {
   font-family: 'Saira Extra Condensed', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
   padding-bottom: 100px;
   margin-bottom: 50px; 
-  background-color:  #d31399;; /* Green */
+  background-color: #a9bcd0;
   border: none;
   color: white;
   font-size: 20px; 
@@ -147,11 +147,8 @@ input[type=text], select, textarea {
 
 
 .dropbtn {
-  /*background-color: #d0d4d8;*/
-  background-image: linear-gradient(#98C1EF,white );
-  color: SlateGray;
   padding: 16px;
-  font-size: 16px;
+  font-size: 25;
   font-family: 'Saira Extra Condensed', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
   border: none;
 }
@@ -165,7 +162,7 @@ input[type=text], select, textarea {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #58A4B0;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -173,7 +170,6 @@ input[type=text], select, textarea {
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -181,7 +177,7 @@ input[type=text], select, textarea {
 }
 
 .dropdown-content a:hover {
-  background-color: #c9daed;
+  background-color: #d8dbe2;
 }
 
 .dropdown:hover .dropdown-content {
