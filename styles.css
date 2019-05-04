@@ -6,13 +6,14 @@ html {
 }
 
 .name {
-    font-family: 'Saira Extra Condensed', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
+    font-family: Arial, Helvetica, san-serif;  
     font-weight: 700;
     text-transform: uppercase;
     padding-left: 400px; 
     padding-top: 5px; 
     padding-bottom: 0px; 
     font-size: 100px; 
+    color: #58a4bo
 }
 
 .subheader {
@@ -67,7 +68,7 @@ html {
 }
 
 .sidenav a:hover {
-  color: #d8dbe;
+  color: #a9bcd0;
 }
 .header {
   font-family: 'Saira Extra Condensed', 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; 
@@ -137,7 +138,7 @@ input[type=text], select, textarea {
 
 
 .button:hover {
-  background-color:#d8dbe; 
+  background-color:#a9bcd0; 
 
 }
 .button {
