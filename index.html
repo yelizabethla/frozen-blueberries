@@ -3,34 +3,105 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>E.LA</title>                           <!-- Give Title -->
+    <title> E.LA</title>                          
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=stylesheet type="text/css" href="styles.css">  
+    <link rel="icon" href="blueberry.png">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300|Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles.css">  <!-- Insert StyleSheet -->
-    <link rel="icon" href="blueberry.png">                    <!-- Insert Icon -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+	
+    <script type="text/javascript" src="../../js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="../../js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="../../js/examples.js"></script>
+	<script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+	
 
 </head>
-<body class="page">
-	<div class=top-margin> 
-		<p class = "titletext"> Elizabeth La </p>
-	</div>
-	 <div class=nav-bar>
-    	<a href='nav_bar.html' class=element> Home </a>
-        <a href='nav_bar.html' class=element> About </a>
-    	<a href='nav_bar.html' class=element> Education </a>
-    	<a href='nav_bar.html' class=element> Experiences </a>
-    	<a href='nav_bar.html' class=element> Contact </a>
+<body class="page text">
+    <div class="sidenav">
+     <img class="picture" src="me.jpg" 
+         alt="Ellie">
+    <a href="#about" class="active">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>  
     </div>
 
-    <p class = "center"> what's crackalackin'?! </p>
+    </div>
+    <a href="#linktotop"></a>
+	<p class = "subname"> what's crackalackin'?! </p>
+    <div id="about" class="name"> Elizabeth La (Ellie)</div>
+    <div class="subname"> Cognitive Science and Human Computer Science double major at Carnegie Mellon University</div>
+    </div> 
 
-    <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
-    <div class = "circular" >
-    <img src = "me.jpg" width = "150" height="200" alt = "headshot" class ="circular-center-image">
-    </div>	
+    <div><a id="education" class="header"> Education </a> <br> 
+    <a class="subheader"> Carnegie Mellon University</a> <br>
+		<a class="desc"> Dietrich College of HSS, Cognitive Science</a> <br>
+        <a class="desc"> School of Computer Science, Human Computer Interaction</a> <br>
+        <a class="desc"> Expected Graduation: December 2020</a> <br> 
+    <a class="subheader"> Coursework </a> <br>
+        <a class="desc"> Information Design</a> <br>
+        <a class="desc">  Principles of Imperative Computation</a> <br> 
+    <a class="subheader"> Extracurriculars </a> <br>
+        <a class="desc"> Camp Kesem at Carnegie Mellon</a> <br>
+        <a class="desc"> Design for America</a> <br>  
+		<a class="desc"> Smart Sensing for Humans Lab</a> <br> 
+		<a class="desc"> Infant Cognition Lab</a> <br>  
+    </div> 
+
+    <div>  <a id="experience" class="header"> Work Experience</a></div> <br> 
+    <a class= "subheader"> Research Assistant, Smart Sensing for Humans Lab <a/> <br> 
+    	<a class="desc"> Jan '19 - Current | Pittsburgh, PA</a> <br> 
+	<a class= "subheader"> Research Assistant, Infant Cognition Lab <a/> <br> 
+    	<a class="desc"> June '18 - Current | Pittsburgh, PA</a> <br> 
+    <a class= "subheader"> Teaching Assistant, Principles of Computing</a> <br>
+    	<a class="desc"> June '18 - Current | Pittsburgh, PA</a> <br> 
+    <div>
+		
+	<div>  <a id="experience" class="header"> Leadership Experience</a></div> <br> 
+    <a class= "subheader"> Director, Camp Kesem at Carnegie Mellon University <a/> <br> 
+    	<a class="desc"> June '19 - Current | Pittsburgh, PA</a> <br> 
+	<a class= "subheader"> Operations Coordinator, Camp Kesem at Carnegie Mellon University <a/> <br> 
+    	<a class="desc"> August '18 - May '19 | Pittsburgh, PA</a> <br> 
+    <a class= "subheader"> Outreach Coordinator, Camp Kesem at Carnegie Mellon University <a/> <br> 
+    	<a class="desc"> August '17 - July '18 | Pittsburgh, PA</a> <br> 
+    <div>
+		
+    <a id="skills" class="header"> Skills </a><br> </div>
+    <a class= "subheader"> Programming Languages </a> <br> 
+    	<a class ="desc"> Python, C#, C, HTML5/CSS, SPSS, LaTeX </a> <br> 
+	<a class= "subheader"> Languages </a> <br> 
+    	<a class ="desc"> Korean, Mandarin, American Sign Language </a> <br> 
+	<a class= "subheader"> Software  </a> <br> 
+    	<a class ="desc"> Adobe Creative Cloud, Figma, Google, Microsoft Office </a> <br> 
+    </div> 
+
+    <a id="contact" class="header"> Contact </a> <br> 
+    	<a class= "subheader"> Let's get connected! </a> <br>
+ 		<a class ="desc">ela [AT] andrew[DOT]cmu[DOT]edu</a> <br>
+		<a class ="desc">yelizabethla [AT] gmail[DOT]com</a> <br>
+ 	</div>
+    
+    
+    <footer> 
+    <div class="name">     
+    	<a  class="links" href='https://www.linkedin.com/in/elizabeth-la-590685156/'> <img class="links" src="linkedin.svg"></a>
+		<a  class="links" href='https://www.instagram.com/elittle_glimpse/'> <img class="links"src="instagram.svg"> </a>
+    <a class="about-bottom"> </a> 
+    </div> 
+
+    </footer> 
+    <script type="text/javascript" src="interactions.js"></script>    
+    <script type="text/javascript" src="../../js/tracking.js"></script>
+
 </body>
-
+</html>
 
 
 
